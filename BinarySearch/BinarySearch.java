@@ -1,8 +1,13 @@
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] arr={4,57,76,88,99};
-        System.out.println(binarysearch(arr, 88));
+        int[] arr={'c','f','j'};
+        // System.out.println(binarysearch(arr, 88));
+        System.out.println(2 == arr.length-1 && arr[2] <= 'k');
+        if(4 == arr.length-1 && arr[4] <= 'k'){
+            System.out.println(arr[0]);
+        }
+        System.out.println('z'<='a');
     }   
     
     static int binarysearch(int[] arr, int target){

@@ -32,7 +32,6 @@ public class FirstAndLastPosi {
                     }else{
                         start=mid+1;
                     }
-                
             }
         }
         return ans;
