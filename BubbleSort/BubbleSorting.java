@@ -12,6 +12,7 @@ public class BubbleSorting {
         }
         for (int i = 0; i < arr2.length-1; i++) {
             temp[arr.length+i]=arr2[i];
+            
         }
         System.out.println(Arrays.toString(bubbleSort(arr)));
     }
